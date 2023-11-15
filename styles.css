@@ -1,0 +1,151 @@
+/* Tar bort margin och padding i hela body-elementet*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #460202;
+  text-align: center;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Titel bilden*/
+.titleImage {
+  width: 40%;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/doc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerInner {
+  width: 120vh;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column-reverse;
+}
+
+.containerContent {
+  background: linear-gradient(90deg, #460202, rgb(230, 100, 100));
+  border: 4px dotted #ffe148;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.containerText {
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: center;
+}
+
+.containerImage {
+  padding: 20px;
+}
+
+.imageStartSide {
+  height: 50%;
+}
+
+.containerVideo {
+  text-align: center;
+}
+
+.button {
+  width: 250px;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Ger mer mellanrum mellan bokstäverna*/
+  border-radius: 40px;
+  padding: 20px 20px;
+  margin: 40px 30px;
+  background: linear-gradient(90deg, rgb(162, 1, 54), #e3dd2a);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  border: 4px dotted #ffe148;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background: linear-gradient(90deg, #060c3d, #2b337a);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.text {
+  background-color: cadetblue;
+  height: 200px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  margin: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.imageStartSide {
+  width: 450px;
+  height: 285px;
+}
+
+/* Style för korten i Bärgarns verkstad */
+
+/* Container/behållaren/Boxen för alla kort */
+.containerCard {
+  gap: 20px;
+  width: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Hela kortet */
+.card {
+  background: linear-gradient(90deg, rgb(70, 2, 2), rgb(230, 100, 100));
+  border: 4px dotted #ffe148;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Bild i kortet */
+.cardImages {
+  width: 50%;
+}
+
+/* Knapp i kortet */
+.buttonCard {
+  width: 100px;
+  background: linear-gradient(90deg, rgb(162, 1, 54), #e3dd2a);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px dotted #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
