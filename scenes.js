@@ -292,7 +292,7 @@ const scenes = [
     itemsLists: [
       {
         image: "./images/skiftnyckel.png",
-        item: "Skruvmejsel",
+        item: "Skiftnyckel",
         text: "Hämta",
       },
       {
