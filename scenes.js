@@ -372,8 +372,13 @@ const scenes = [
         text: "- Ja, han är min bästa vän!",
       },
     ],
+    buttons: [
+      {
+        text: "Spela igen?",
+        nextSceneIndex: 0,
+      },
+    ],
     videos: [],
-    buttons: [],
     itemsLists: [],
   },
 ];
